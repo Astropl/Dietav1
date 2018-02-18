@@ -39,6 +39,7 @@ public class UserLogin extends JFrame {
         btn2.setText("Zaloguj");
 
         setVisible(true);
+
         btn1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Pierwszy");
