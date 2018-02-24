@@ -63,7 +63,9 @@ public class FileOperations extends UserLogin{
         wynik1[3] = grow;
         wynik1[4] = login;
         wynik1[5] = password;*/
-
+// tu jest cos nie tak
+        //s prawdzic to
+        //todo: check it
         UserLogin userLogin = new UserLogin();
         String temp = userLogin.getTextField1().toString();
 
